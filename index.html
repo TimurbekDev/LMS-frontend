@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/core.css">
+  <link rel="stylesheet" href="./styles/index/index.css">
+  <link rel="stylesheet" href="./styles/index/responsive.css">
+  <title>Sing In</title>
+</head>
+<body>
+  <div class="container">
+
+    <form class="login-form">
+
+      <div class="login-title">
+        <h2>Sign In</h2>
+      </div>
+
+      <label for="user-email" class="label-email">
+        <span>Email : </span>
+        <input type="email" id="user-email" placeholder="Enter email" required>
+      </label>
+
+      <label for="user-password" class="label-password">
+        <span>Password : </span>
+        <input type="password" id="user-password" placeholder="Enter password" required>
+      </label>
+      <span id="error" class="error">login or password incorrect</span>
+
+      <button type="submit" id="login-btn">Sign In</button>
+
+    </form>
+
+  </div>
+  <script type="module" src="./js/index.js"></script>
+</body>
+</html>
